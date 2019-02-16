@@ -1,0 +1,45 @@
+{
+  "_id": "5c67e8e350b6558a9151c639",
+  "index": 0,
+  "guid": "2ca1d2f2-9cb9-4c30-aaad-f1bb283057f3",
+  "isActive": true,
+  "balance": "$1,512.09",
+  "picture": "http://placehold.it/32x32",
+  "age": 31,
+  "eyeColor": "green",
+  "name": "Ellis Steele",
+  "gender": "male",
+  "company": "MAGNINA",
+  "email": "ellissteele@magnina.com",
+  "phone": "+1 (980) 546-2836",
+  "address": "708 Hemlock Street, Kapowsin, Nevada, 6513",
+  "about": "Excepteur laboris non fugiat dolore duis. Pariatur ad cillum consequat aute anim minim mollit aliqua. Amet eiusmod culpa nostrud sint veniam exercitation. Laboris nostrud elit ipsum aliquip exercitation culpa cupidatat eu irure anim est proident laboris. Amet do nulla consectetur Lorem mollit dolor mollit Lorem laboris ut est et.\r\n",
+  "registered": "2014-01-19T03:22:32 -02:00",
+  "latitude": -66.834121,
+  "longitude": 50.317876,
+  "tags": [
+    "ullamco",
+    "sunt",
+    "nisi",
+    "eiusmod",
+    "labore",
+    "et",
+    "eiusmod"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Staci Nielsen"
+    },
+    {
+      "id": 1,
+      "name": "Torres Travis"
+    },
+    {
+      "id": 2,
+      "name": "Deanna Hobbs"
+    }
+  ],
+  "greeting": "Hello, Ellis Steele! You have 8 unread messages.",
+  "favoriteFruit": "banana"
+}

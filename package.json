@@ -1,0 +1,28 @@
+{
+  "name": "serialization-check",
+  "version": "1.0.0",
+  "description": "Check different serialization formats",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polesskiy-dev/serialization-check.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polesskiy-dev/serialization-check/issues"
+  },
+  "homepage": "https://github.com/polesskiy-dev/serialization-check#readme",
+  "devDependencies": {
+    "cbor-js": "^0.1.0"
+  },
+  "dependencies": {
+    "bson": "^4.0.1",
+    "msgpack-lite": "^0.1.26"
+  }
+}
