@@ -13,6 +13,7 @@ const largeSizeMockData = require('./data-examples/large-size-mock.data')
 const extraLargeSizeMockData = require('./data-examples/extra-large-size-mock.data')
 
 const filesArr = [tinySizeMockData, mediumSizeMockData, largeSizeMockData, extraLargeSizeMockData]
+const filesNames = ['tiny', 'medium', 'large', 'extra-large']
 
 // transform PerformanceEntry to human readable format
 const measureTransform = (performanceEntry) => {
@@ -36,7 +37,13 @@ const wrappedMsgDecode = performance.timerify(MessagePack_decode)
 
 // perf measure observer
 const obs = new PerformanceObserver((list, observer) => {
-    console.table(list.getEntries().map(measureTransform))
+    const measures = list.getEntries().map(measureTransform)
+    filesNames.forEach((name, index) => {
+        console.log(name)
+        console.table(measures.slice(index * filesNames.length, index * filesNames.length + filesNames.length ))
+    })
+
+
     // console.log(list.getEntries())
     observer.disconnect();
 });
